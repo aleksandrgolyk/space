@@ -196,7 +196,7 @@ body {
     animation: spin var(--orbit-2-speed) infinite linear;
 }
 
-.orbit:hover {
+.moon:hover ~ .orbit{
     animation-play-state: paused;
 }
 
